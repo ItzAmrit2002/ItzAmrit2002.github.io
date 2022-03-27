@@ -27,6 +27,9 @@ document.querySelector("#pdf-file").addEventListener('change', function() {
     // hide upload dialog
     document.querySelector("#upload-dialog").style.display = 'none';
     document.querySelector('#refresh').style.display = 'inline-block'
+
+    document.querySelector('#prev-page').style.display = 'inline-block'
+    document.querySelector('#next-page').style.display = 'inline-block'
     
     // // show the PDF preview loader
     // document.querySelector("#pdf-loader").style.display = 'inline-block';
